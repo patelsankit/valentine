@@ -27,6 +27,20 @@ body {
 .paper.image {
   padding: 10px;
 }
+
+.paper.image.image-1 {
+  z-index: 11;
+  transform: translateX(169px) translateY(-228px) rotateZ(-14.8733deg);
+}
+.paper.image.image-2 {
+  z-index: 9;
+  transform: translateX(-260px) translateY(-449px) rotateZ(-9.43889deg);
+}
+
+.paper.image.image-3 {
+  z-index: 10;
+  transform: translateX(-237px) translateY(364px) rotateZ(0.412446deg);
+}
 .paper.image p {
   font-size: 30px;
 }
@@ -63,4 +77,15 @@ p {
   color: rgb(0, 0, 100);
   opacity: 0.75;
   user-select: none;
+}
+.paper:nth-of-type(1n) {
+}
+
+.paper:nth-of-type(2n) {
+}
+
+.paper:nth-of-type(3n) {
+}
+
+.paper:nth-of-type(4n) {
 }
